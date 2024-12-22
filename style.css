@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #ffe4b5; /* Light orangish background */
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners for the entire UI */
+}
+
+#task-manager {
+  width: 300px;
+}
+
+#task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#task-form input,
+#task-form button {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners for inputs and button */
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #fff8dc; /* Slightly lighter background for tasks */
+  border-radius: 5px; /* Rounded corners for task items */
+}
+
+button {
+  background-color: #ffa07a; /* Light salmon color for buttons */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px; /* Rounded corners for buttons */
+}
+
+button:hover {
+  background-color: #ff7f50; /* Slightly darker color on hover */
+}
